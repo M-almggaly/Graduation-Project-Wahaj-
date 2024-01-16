@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+	<head>
+		<meta charset="windows-1256">
+        <title>Wahaj</title>
+        <meta name="description" content="The description should optimally be between 150-160 characters.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Madeon08">
+
+        <!-- ================= Favicon ================== -->
+        <!-- Coding by Mohammed almggaly Sohil -->
+        <link rel="icon" href="img/Untitled-5.png">
+        <!-- iPad Touch Icon-->
+        <link rel="apple-touch-icon"href="img/Untitled-5.png">
+        <!-- iPhone Touch Icon-->
+        <link rel="apple-touch-icon" href="img/Untitled-5.png">
+        <!-- iPad Touch Icon-->
+        <link rel="apple-touch-icon" href="img/Untitled-5.png">
+        <!-- iPhone Touch Icon-->
+        <link rel="apple-touch-icon" href="img/Untitled-5.png">
+
+        <!-- ============== style BY Mohammed almggaly Sohil  ============== -->
+        <link rel="stylesheet" href="css/style-BY-Mohamed-Taha.css" />
+				<!-- Font by Mohammed almggaly Sohil -->
+				<link rel="stylesheet" href="styleFont-BY-Mohamed-Tana.css">
+        <!-- Coding by Mohammed almggaly Sohil -->
+        <script src="js/modernizr.custom.js"></script>
+	<script>
+function SameValue() {
+    var text1 =  document.getElementById("username").value; 
+    document.getElementById("password").value =  text1; 
+} 
+</script>
+	</head>
+	<body>
+       
+        <!-- Coding by Mohammed almggaly Sohil -->
+        <div class="global-overlay">
+            <div class="overlay skew-part"></div>
+        </div>
+
+        <div class="left-part">
+
+            <div class="content">
+
+                <!-- logo Mohammed almggaly Sohil -->
+                <img src="img/deshbort.png" alt="" class="brand-logo" />
+                <h1 align="center"> <a href="../wahaj/ADS/index.html"><font size="4">
+				             Ads</font></a><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="offers/index.html">Offers</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</font><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;
+				</font></h1>
+				<p align="center"> <b><font size="7" face="Cooper Black">Welcome</font></b></p>
+				<p align="center"> &nbsp;</p>
+				<h2 align="center">we wish to spend a nice time in our network</h2>
+                <div>
+                    <a data-dialog="somedialog" class="action-btn trigger">Sign in</a>
+                </div>
+            </div>
+
+            <div class="text-annex">
+                <a href="https://www.facebook.com/Memo.zuakil"><i class="fa fa-spinner fa-spin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="right-part opacity-0"></div>
+
+        <!-- START - login -->
+        <div id="somedialog" class="dialog">
+            <div class="dialog__overlay"></div>
+            <div class="dialog__content">
+                <div class="dialog-inner">
+                    <blockquote>
+						<h4>Sign in</h4>
+					</blockquote>
+					<p>you should check from the code</p>
+					<p><br></p>
+                    <!-- START - login Form -->
+
+										<form name="sendin" action="$(link-login-only)" method="post">
+									            <input type="hidden" name="username" />
+									            <input type="hidden" name="password" />
+									            <input type="hidden" name="dst" value="$(link-orig)" />
+									            <input type="hidden" name="popup" value="true" />
+									          </form>
+
+									          <script type="text/javascript" src="/md5.js"></script>
+									          <script type="text/javascript">
+									          
+									            function doLogin() {
+									              document.sendin.username.value = document.login.username.value;
+									              document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+									              document.sendin.submit();
+									              return false;
+									            }
+									            //-->
+									          </script>
+
+
+
+									          <form class="vertical-form" name="login" action="$(link-login-only)" method="post"
+									                $(if chap-id) onSubmit="return doLogin()" $(endif)>
+									            <input type="hidden" name="dst" value="$(link-orig)" />
+									            <input type="hidden" name="popup" value="true" />
+									            <div style="margin:0;padding:0;display:inline"></div>
+															<div class="col-xs-12 col-sm-12 col-lg-12">
+									            <form class="main-form">
+									              <div class="form-group">
+									                <input name="username" type="text" id="username" class="form textarea form-control" placeholder="Charge Code">
+									                <div class="form-icon lin lin-user"></div>
+									              </div>
+									              <div class="form-group">
+									                <input autocomplete="off" name="password" type="hidden" id="password" label="false" class="form textarea form-control">
+									                <div class="form-icon lin lin-key"></div>
+									              </div>
+									              <input name="submit" type="submit" value="Sign in" onclick="SameValue();" class="action-btn trigger"/>
+									            </form>
+
+									            <script type="text/javascript">
+									              
+									              document.login.username.focus();
+									              //-->
+									            </script>
+									          </form>
+                    <!-- END - login Form -->
+
+                    <!-- Coding by Mohammed almggaly Sohil -->
+                    <div id="block-answer">
+                        <div id="answer"></div>
+                    </div>
+                </div>
+                <!-- Coding by Mohammed almggaly Sohil -->
+                <button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
+            </div>
+            <!-- Coding by Mohammed almggaly Sohil -->
+        </div>
+        <!-- END - login -->
+
+	<!-- *jQuery* -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- Plugin -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- login form plugin -->
+    <script src="js/contact-me.js"></script>
+    <!-- Background Slideshow -->
+    <script src="js/MohamedTaha.js"></script>
+    <!-- Coding by Mahmood Sohil -->
+    <script src="js/classie.js"></script>
+    <script src="js/dialogFx.js"></script>
+	<!-- Main JS File -->
+	<script src="js/main.js"></script>
+
+    <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script>
+<![endif]-->
+	</body>
+</html>

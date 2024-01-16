@@ -1,0 +1,101 @@
+/*--
+Author: Mohamed Taha
+Facebook URL: https://www.facebook.com/mohamed.taha138
+Author URL: http://www.computerwgraphic.blogspot.com
+License: Free
+--*/
+
+@font-face {
+	font-family: 'AraJozoor-Regular';
+	src: url('font-MohamedTaha-AR/AraJozoor-Regular.eot');
+	src: local('☺'), url('font-MohamedTaha-AR/AraJozoor-Regular.woff') format('woff'), url('font-MohamedTaha-AR/AraJozoor-Regular.ttf') format('truetype'), url('font-MohamedTaha-AR/AraJozoor-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+color : rgb(43,00,AA);
+font-family : trebuchet;
+}
+
+p {
+font-family :AraJozoor-Regular;
+}
+
+h1 {
+font-family :AraJozoor-Regular;
+}
+
+h2 {
+	font-family :AraJozoor-Regular;
+}
+
+h3 {
+	font-family :AraJozoor-Regular;
+}
+
+h4 {
+	font-family :AraJozoor-Regular;
+}
+
+ul {
+	font-family :AraJozoor-Regular;
+}
+
+li {
+	font-family :AraJozoor-Regular;
+}
+
+a {
+	font-family :AraJozoor-Regular;
+}
+
+.div a class id {
+	font-family :AraJozoor-Regular;
+}
+
+.class a {
+	font-family :AraJozoor-Regular;
+}
+
+form {
+	font-family :AraJozoor-Regular;
+}
+
+.div form {
+	font-family :AraJozoor-Regular;
+}
+
+.div input form {
+	font-family :AraJozoor-Regular;
+}
+
+input[type="text"] {
+font-family :AraJozoor-Regular;
+}
+
+input[type="password"] {
+font-family :AraJozoor-Regular;
+}
+
+input[type="submit"] {
+font-family :AraJozoor-Regular;
+}
+
+.copy-right {
+font-family :AraJozoor-Regular;
+}
+
+.copy-right p {
+font-family :AraJozoor-Regular;
+}
+
+.copy-right p a {
+font-family :AraJozoor-Regular;
+}
+
+.copy-right p a:hover {
+font-family :AraJozoor-Regular;
+}
+
+/* End editing Fonts from here design BY Mohamed Taha */
